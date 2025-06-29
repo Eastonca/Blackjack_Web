@@ -51,8 +51,8 @@ const sounds = {
   bgMusic: new Audio('audio/casinoMusic.mp3')
 }
 
-sounds['bgMusic'].volume = 0.2
-sounds['losing'].volume = 0.4
+sounds['bgMusic'].volume = 0.5
+sounds['losing'].volume = 0.8
 
 // utils
 const deck = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
